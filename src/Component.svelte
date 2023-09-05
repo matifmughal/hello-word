@@ -1,3 +1,9 @@
+ <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Add your Content Security Policy (CSP) directives here -->
+    <meta http-equiv="Content-Security-Policy" content="connect-src 'self' https://*.budibase.net https://api-iam.intercom.io https://budibase-testing.s3.us-east-2.wasabisys.com">
+    
 <script>
   import { getContext } from "svelte";
 
